@@ -1,0 +1,171 @@
+/*
+Theme Name:   Shopper Shop
+Theme URI: https://athemeart.com/downloads/shoper-wordpress-shop-theme-free/
+Description:  Shopper Shop is a perfect theme for creating an online eCommerce website. The theme is compatible with the most wanted WordPress plugin that's WooCommerce. Here is full freedom to create an online store for fashion, cosmetics, jewelry, furniture, accessories, lifestyle, decoration, gadgets, books, home appliances, clothes, automobiles, groceries, and much more. Shopper shop is a child theme of Shoper theme, so you have options to choose multiple headers, footers, and blog templates for your website. Besides, you can use this child theme for blogging websites. Include all common blogging feature search as next- previous posts, author biography, comment. Moreover, Shopper Shop works with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. So if you are looking for an elegant store theme? Look no further! Browse the demo: https://athemeart.dev/demo/shoper/
+Author:       aThemeArt
+Author URL:   https://athemeart.com
+Template:     shoper
+
+License:      GNU General Public License v3
+License URI:  https://www.gnu.org/licenses/gpl-3.0.en.html
+Text Domain:  shopper-shop
+
+Version:      1.0.4
+Requires at least: 5.0
+Tested up to: 6.0.0
+Requires PHP: 7.0
+Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, sticky-post, custom-background, custom-header, custom-colors, custom-menu, featured-images, full-width-template, translation-ready, theme-options, threaded-comments, custom-logo, blog, e-commerce
+
+
+Shopper Shop WordPress Theme, Copyright 2020 aThemeArt
+Shopper Shop is distributed under the terms of the GNU GPL
+
+Shopper Shop is child theme of shoper WordPress Theme, Copyright 2020 aThemeArt
+
+*/
+
+
+:root {
+  --primary-color:#6c757d;
+  --secondary-color: #37BF91;
+
+ 
+  --nav-color:#fff;
+  --nav-h-bg:#37BF91;
+ 
+
+}
+#masthead{
+    position: absolute;
+    background: none;
+    padding-bottom: 00px;
+    left: 0px;
+    right: 0px;
+    z-index: 9999;
+}
+#masthead .navbar-inner-flex{
+    display: flex;
+    
+
+}
+#masthead .branding-panel{
+    height: 95px;
+    min-width: 205px;
+    max-width: 215px;
+    background: #fff;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    flex: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#masthead .branding-panel:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    -webkit-transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+    transform-origin: bottom left;
+    -webkit-transform: skew(-30deg, 0deg);
+    -ms-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg);
+    background: #fff;
+}
+
+#masthead .navbar-panel{
+   flex: auto;
+   display: flex;
+   align-items: center;
+   justify-content: end;
+   position: relative;
+   padding-right: 15px;
+}
+#masthead .navbar-panel .bg-style{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+
+}
+#masthead .navbar-panel .bg-style:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: calc( 100% - 7px );
+    z-index: -1;
+    -webkit-transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+    transform-origin: bottom left;
+    -webkit-transform: skew(-30deg, 0deg);
+    -ms-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg);
+    background: rgba(80,90,104,0.9);
+    left: auto;
+    right: 0px;
+}
+#masthead .search-bar{
+    bottom: 0px;
+}
+
+@media only screen and (max-width : 992px) {
+    #masthead button.shoper-rd-navbar-toggle{
+        position: static;
+        margin-top: 0px;
+    }
+
+}
+@media only screen and (max-width : 420px) {
+    #masthead .header-icon{
+        display: none!important;
+    }
+}
+
+
+#static_header_banner .content-text{
+    padding-top: 90px;
+}
+
+#static_header_banner{
+    height: 70vh;
+}
+
+#navbar .navigation-menu li li > a,
+#masthead .header-icon li li > a{
+    color: #000;
+}
+#masthead .header-icon{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+#author-info{
+    display: flex;
+    background: #FFF;
+    box-shadow: 0px 0px 131px 0px rgba(74,74,74,0.1);
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+#author-avatar {
+    width: 160px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 50px;
+
+}
+.single-prev-next,
+.comments-area{
+     border-radius: 8px;
+}

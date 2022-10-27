@@ -1,0 +1,74 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Shopper Shop\n"
+"POT-Creation-Date: 2022-05-11 02:47-0700\n"
+"PO-Revision-Date: 2022-05-11 02:47-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: functions.php:156
+msgid "Blog Management"
+msgstr ""
+
+#: functions.php:172
+msgid "Posts Loop Style"
+msgstr ""
+
+#: functions.php:173
+msgid "Choose between different Posts Loop options to be used as default"
+msgstr ""
+
+#: functions.php:176
+msgid "Default"
+msgstr ""
+
+#: functions.php:177
+msgid "Grids"
+msgstr ""
+
+#: functions.php:178
+msgid "Masonry grid"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Shopper Shop"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://athemeart.com/downloads/shoper-wordpress-shop-theme-free/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Shopper shop is a perfect theme for creating an online eCommerce website. "
+"The theme is compatible with the most wanted wordpress plugin that's "
+"WooCommerce. here is full freedom to create an online store for fashion, "
+"cosmetics, jewelry, furniture, accessories, lifestyle, decoration, gadgets, "
+"books, home appliances, clothes, automobiles, groceries, and much more.  "
+"Shopper shop is a child theme of shoper so you have options to choose "
+"multiple headers, footers, and blog templates for your website. Besides, you "
+"can use this child theme for blogging websites. include all common blogging "
+"feature search as next- previous posts, author biography, comment. Moreover, "
+"Shopper shop works with all page builders like Elementor, Beaver Builder, "
+"Visual Composer, SiteOrigin, Divi, etc.  So if you are looking for an "
+"elegant store theme? Look no further! Browse the demo : https://athemeart."
+"dev/demo/shoper/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "aThemeArt"
+msgstr ""

@@ -1,0 +1,8 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_bosa-shopper">
+            <key name="featured_pages_section_title" />
+            <key name="featured_pages_section_description" />
+        </key>
+    </admin-texts>
+</wpml-config>
